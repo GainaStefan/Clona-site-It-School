@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adaugam metatag-urile pentru Google -->
+    <title>Clonă IT School</title>
+    <meta name="description" content="O replică a site-ului itschool.ro" />
+
+    <!-- Includem font-urile prima oara -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Pentru iconite -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Includem CSS-urile noastre -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <a href="index.html" class="logo-link">
+          <img
+            src="https://www.itschool.ro/images/logo-itschool-dark.svg"
+            alt="itschool logo"
+          />
+        </a>
+        <div class="menu-icon-container">
+          <!-- Iconita de meniu + checkbox-ul sunt pentru mobile. -->
+          <span class="material-icons menu-icon"> menu </span>
+          <input type="checkbox" />
+          <ul>
+            <li>
+              <a href="pages/courses.html"> Cursuri Online </a>
+            </li>
+            <li class="about-us">
+              <a href="pages/about.html">
+                Despre Noi
+                <!-- Iconita luata de pe Material Icons. -->
+                <span class="material-icons arrow-down-icon">
+                  arrow_drop_down
+                </span>
+              </a>
+              <!-- Submeniul afisat la hover pe "Despre noi" -->
+              <div class="submenu">
+                <a href="index.html">IT School</a>
+                <a href="pages/about.html">Despre Noi</a>
+              </div>
+            </li>
+            <li>
+              <a href="pages/contact.html"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="welcome">
+      <div class="container">
+        <h1>Bine ai venit!</h1>
+        <p>
+          Accelerator de cariere in <span>{</span>web development<span>}</span>
+        </p>
+        <p>
+          Cursuri IT pentru incepatori cu certificare
+          <img
+            src="https://www.itschool.ro/_next/static/media/microsoft.a88a9b08.svg"
+            alt="Microsoft"
+          />
+          <img
+            src="https://www.itschool.ro/_next/static/media/adobe.5bd44582.svg"
+            alt="Adobe"
+          />
+          <img
+            src="https://www.itschool.ro/_next/static/media/it-specialist-white.f78f456d.svg"
+            alt="IT"
+          />
+          <img
+            src="https://www.itschool.ro/_next/static/media/edu.28bee622.svg"
+            alt="Ministerul Educatiei"
+          />
+        </p>
+        <a href="pages/courses.html">Afla mai multe</a>
+      </div>
+    </section>
+
+    <section class="courses">
+      <div class="container">
+        <h2>Calendar cursuri</h2>
+        <div class="courses-container">
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                Web Development
+                <img
+                  src="https://www.itschool.ro/_next/static/media/webdev.d77e2f42.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                Graphic Design
+                <img
+                  src="https://www.itschool.ro/_next/static/media/photoshop.f02e8d30.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                UI/UX Design
+                <img
+                  src="https://www.itschool.ro/_next/static/media/ui-ux.c1e896f7.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                Programare Java
+                <img
+                  src="https://www.itschool.ro/_next/static/media/java.5bccc5ce.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                Programare C++
+                <img
+                  src="https://www.itschool.ro/_next/static/media/c++.0c780c25.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-content">
+              <h3>
+                Programare Python
+                <img
+                  src="https://www.itschool.ro/_next/static/media/python.f1eef767.svg"
+                  alt=""
+                />
+              </h3>
+              <p>
+                <span class="material-icons calendar"> event </span>In curand
+              </p>
+              <div class="decoration"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us">
+      <div class="container">
+        <h2>Ce este IT School?</h2>
+        <p>
+          IT School este o comunitate educationala de IT, locul unde pasionatii
+          acestui domeniu se intalnesc cu viitorii profesionisti. Timp de peste
+          7 ani, am construit alaturi de trainerii IT School un mediu de
+          invatare specializat pentru toti cei care isi doresc sa descopere
+          oportunitatile acestui domeniu. Esti pregatit sa faci parte din
+          comunitatea IT School?
+        </p>
+        <div class="about-us-container">
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-1.fna.fbcdn.net/v/t1.6435-9/83788973_2960444150640563_5277826804562788352_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=730e14&_nc_ohc=0GVo2lWngXgAX8sp6VT&_nc_ht=scontent.fotp3-1.fna&oh=00_AT-davJPCQGiEDlvyOhK12PeNrhhiIv06ESnSmWEefogLw&oe=6270B16C"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.6435-9/87155232_3025337317484579_4104717334462070784_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=N5QBWHa-Y_QAX8KBNTV&_nc_ht=scontent.fotp3-2.fna&oh=00_AT-oT4J-mO476f24M_osPs_bi7f8B5ofdKZKd88QlR01TQ&oe=62730F61"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-1.fna.fbcdn.net/v/t1.6435-9/90651116_3096325627052414_7125015328593018880_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=BLKHXIciifYAX-MOagR&_nc_ht=scontent.fotp3-1.fna&oh=00_AT-G5BIQ68-i7tDLV5stpu7vUMz5GYdAemdl_QVunhZTOA&oe=6273C5F2"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-3.fna.fbcdn.net/v/t1.6435-9/50230591_2261201133898205_4065092623319171072_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=730e14&_nc_ohc=DU4cYqRgsOMAX8Fv9Ab&_nc_ht=scontent.fotp3-3.fna&oh=00_AT-jxkb8CdEFNEI-hXz0obmIre18wRW89jHx9QONLi2T1g&oe=62732746"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-2.fna.fbcdn.net/v/t31.18172-8/22791861_1691483227536668_4532556141562800299_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=WE3us0ooxEUAX9vrVMH&_nc_ht=scontent.fotp3-2.fna&oh=00_AT_hmN9eLv2Qc0XgapwsdVQxZeB72AH-o-R0fHGYBYCnOQ&oe=6273B5C1"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="about-us-item">
+            <div class="about-us-content">
+              <img
+                src="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.6435-9/55882301_2379256222092695_1280282192764731392_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=SBeVaREOEYUAX9L6Qdd&tn=YmxbVTu_QoffVhLz&_nc_ht=scontent.fotp3-2.fna&oh=00_AT9ElqwTa1_D1LH1YrKLSEwgo-Xuts7PNyefrJXlTlqKng&oe=62728C67"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>IT School România © 2022. Toate drepturile rezervate.</p>
+      </div>
+    </footer>
+  </body>
+</html>
